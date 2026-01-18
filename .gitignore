@@ -1,13 +1,19 @@
 # dependencies
 node_modules/
+frontend/node_modules/
 
 # builds
 build/
-dist/
+frontend/build/
 
 # env files
 .env
 .env.local
+.env.production
+.env.development
+
+# OS
+.DS_Store
 
 # logs
 npm-debug.log*

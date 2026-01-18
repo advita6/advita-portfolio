@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import SectionHeading from './ui/SectionHeading';
 
 const About = () => {
   return (
@@ -10,10 +11,12 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="space-y-8"
+          className="space-y-10"
         >
-          <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
-          
+          {/* SECTION TITLE */}
+          <SectionHeading>About Me</SectionHeading>
+
+          {/* TEXT */}
           <div className="space-y-4 text-lg leading-relaxed text-muted-foreground">
             <p>
               Blending art and technology, I enjoy building digital experiences where creative 
@@ -27,17 +30,35 @@ const About = () => {
             </p>
           </div>
 
-          <div className="pt-6">
-            <h3 className="text-2xl font-bold mb-4">Education</h3>
+          {/* EDUCATION */}
+          <div className="pt-6 space-y-6">
+            <motion.h3
+              whileHover={{ x: 6 }}
+              transition={{ type: "spring", stiffness: 200 }}
+              className="text-2xl font-semibold flex items-center gap-3"
+            >
+              <span className="w-2 h-2 rounded-full bg-[#73617B]" />
+              Education
+            </motion.h3>
+
             <div className="space-y-4">
               <div className="border-l-4 border-[#73617B] pl-6 py-2">
                 <h4 className="text-xl font-semibold">GLA University, Mathura</h4>
-                <p className="text-muted-foreground">B.Tech Computer Science (Cloud Computing & Virtualization Engineering)</p>
-                <p className="text-sm text-muted-foreground">2023 - 2027 | CGPA: 7.3</p>
+                <p className="text-muted-foreground">
+                  B.Tech Computer Science (Cloud Computing & Virtualization Engineering)
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  2023 – 2027 | CGPA: 7.3
+                </p>
               </div>
+
               <div className="border-l-4 border-[#959BB9] pl-6 py-2">
-                <h4 className="text-xl font-semibold">Convent of Jesus and Mary School, New Delhi</h4>
-                <p className="text-sm text-muted-foreground">Class 10: 87% | Class 12: 82%</p>
+                <h4 className="text-xl font-semibold">
+                  Convent of Jesus and Mary School, New Delhi
+                </h4>
+                <p className="text-sm text-muted-foreground">
+                  Class 10: 87% | Class 12: 82%
+                </p>
               </div>
             </div>
           </div>

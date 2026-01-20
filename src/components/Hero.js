@@ -28,7 +28,7 @@ const Hero = () => {
                 }}
                 className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight transition-colors duration-300 hover:text-primary"
               >
-                ADVITA
+                ADVITA-Deploy check
               </motion.h1>
 
               <motion.h1

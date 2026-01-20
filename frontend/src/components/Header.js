@@ -65,17 +65,6 @@ const Header = ({ activeSection }) => {
                 )}
               </button>
             ))}
-
-            {/* RESUME (EXTERNAL PDF) */}
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-            >
-              Resume
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
           </nav>
 
           {/* THEME TOGGLE */}

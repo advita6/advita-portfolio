@@ -36,12 +36,6 @@ const Contact = () => {
       href: "mailto:advitacloud@gmail.com",
       color: "#73617B",
     },
-    {
-      name: "Phone",
-      icon: Phone,
-      href: "tel:+919839110240",
-      color: "#A8D4DC",
-    },
   ];
 
   const handleSubmit = async (e) => {
@@ -140,10 +134,6 @@ const Contact = () => {
                   <p className="flex items-center gap-2">
                     <Mail className="w-4 h-4" />
                     advita.singhh@outlook.com
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <Phone className="w-4 h-4" />
-                    +91 9839110240
                   </p>
                 </div>
               </div>

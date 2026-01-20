@@ -17,7 +17,12 @@ const About = () => {
           <SectionHeading>About Me</SectionHeading>
 
           {/* TEXT */}
-          <div className="space-y-4 text-lg leading-relaxed text-muted-foreground">
+          <div
+            className="
+              space-y-4 text-lg leading-relaxed
+              text-neutral-800 dark:text-muted-foreground
+            "
+          >
             <p>
               Blending art and technology, I enjoy building digital experiences where creative 
               thinking meets solid engineering. My work focuses on the intersection of Cloud and AI, 
@@ -35,7 +40,7 @@ const About = () => {
             <motion.h3
               whileHover={{ x: 6 }}
               transition={{ type: "spring", stiffness: 200 }}
-              className="text-2xl font-semibold flex items-center gap-3"
+              className="text-2xl font-semibold flex items-center gap-3 text-neutral-900 dark:text-foreground"
             >
               <span className="w-2 h-2 rounded-full bg-[#73617B]" />
               Education
@@ -43,11 +48,13 @@ const About = () => {
 
             <div className="space-y-4">
               <div className="border-l-4 border-[#73617B] pl-6 py-2">
-                <h4 className="text-xl font-semibold">GLA University, Mathura</h4>
-                <p className="text-muted-foreground">
+                <h4 className="text-xl font-semibold text-neutral-900 dark:text-foreground">
+                  GLA University, Mathura
+                </h4>
+                <p className="text-neutral-700 dark:text-muted-foreground">
                   B.Tech Computer Science (Cloud Computing & Virtualization Engineering)
                 </p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-neutral-600 dark:text-muted-foreground">
                   2023 – 2027 | CGPA: 7.3
                 </p>
               </div>

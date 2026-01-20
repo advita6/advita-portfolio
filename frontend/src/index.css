@@ -151,3 +151,14 @@ html {
 .animate-gradient-x {
   animation: gradient-x 6s ease infinite;
 }
+html {
+  scroll-behavior: smooth;
+}
+/* Smooth scroll polish */
+body {
+  overscroll-behavior: none;
+}
+
+section {
+  scroll-margin-top: 100px;
+}

@@ -39,7 +39,13 @@ const Hero = () => {
                   delay: 0.15,
                   ease: [0.16, 1, 0.3, 1],
                 }}
-                className="text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight text-muted-foreground transition-colors duration-300 hover:text-primary"
+                className="
+                  text-6xl md:text-7xl lg:text-8xl font-extrabold tracking-tight
+                  text-neutral-700 dark:text-muted-foreground
+                  transition-colors duration-300
+                  hover:text-neutral-900
+                  dark:hover:text-primary
+                "
               >
                 SINGH
               </motion.h1>

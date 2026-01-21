@@ -55,7 +55,7 @@ const About = () => {
                   B.Tech Computer Science (Cloud Computing & Virtualization Engineering)
                 </p>
                 <p className="text-sm text-neutral-600 dark:text-muted-foreground">
-                  2023 – 2027 | CGPA: 7.3
+                  2023 – 2027
                 </p>
               </div>
 
@@ -64,7 +64,7 @@ const About = () => {
                   Convent of Jesus and Mary School, New Delhi
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Class 10: 87% | Class 12: 82%
+                  Class 10: 87% | Class 12: 72%
                 </p>
               </div>
             </div>

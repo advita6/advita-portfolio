@@ -7,23 +7,19 @@ import { Badge } from './ui/badge';
 const staggerContainer = {
   hidden: {},
   show: {
-    transition: {
-      staggerChildren: 0.12,
-    },
-  },
+    transition: { staggerChildren: 0.12 }
+  }
 };
 
 const fadeUpItem = {
-  hidden: { opacity: 0, y: 24 },
+  hidden: { opacity: 0, y: 28 },
   show: {
     opacity: 1,
     y: 0,
-    transition: {
-      duration: 0.5,
-      ease: [0.22, 1, 0.36, 1],
-    },
-  },
+    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] }
+  }
 };
+
 
 const Experience = () => {
   const workExperience = [

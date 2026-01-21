@@ -54,12 +54,13 @@ const TechStack = () => {
     <section id="resume" className="py-24 px-6 bg-muted/30">
       <div className="max-w-7xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="space-y-12"
-        >
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true }}
+  transition={{ staggerChildren: 0.08 }}
+  className="space-y-12"
+>
+
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">Tech Stack</h2>
             <p className="text-muted-foreground text-lg">Technologies I work with</p>

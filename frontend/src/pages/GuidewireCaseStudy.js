@@ -27,7 +27,8 @@ const GuidewireCaseStudy = () => {
       <Header activeSection="blog" />
 
       {/* MAIN CONTENT */}
-      <div className="px-6 pt-32 pb-20 max-w-5xl mx-auto space-y-16">
+      <div className="px-4 pt-32 pb-20">
+        <div className="max-w-5xl mx-auto space-y-16 p-8 md:p-12 rounded-2xl border border-border bg-white/5 backdrop-blur-md shadow-xl"></div>
 
         {/* HERO */}
         <motion.div

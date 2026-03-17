@@ -4,7 +4,6 @@ import Portfolio from './pages/Portfolio';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Toaster } from './components/ui/toaster';
 import './App.css';
-import GuidewireCaseStudy from "./pages/GuidewireCaseStudy";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Portfolio />} />
-            <Route path="/guidewire-case-study" element={<GuidewireCaseStudy />} />
           </Routes>
         </BrowserRouter>
         <Toaster />

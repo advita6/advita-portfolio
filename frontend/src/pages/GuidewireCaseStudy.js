@@ -11,7 +11,7 @@ const Section = ({ title, children }) => (
     transition={{ duration: 0.6 }}
     className="space-y-4"
   >
-    <h2 className="text-2xl md:text-3xl font-semibold">{title}</h2>
+    <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{title}</h2>
 
     <div className="text-muted-foreground leading-relaxed text-lg">
       {children}
@@ -41,10 +41,10 @@ const GuidewireCaseStudy = () => {
           </div>
 
           <p className="text-primary font-medium">
-            Built for Guidewire DEVTrails 2026 Hackathon 🚀
+            Built for Guidewire DEVTrails 2026 Hackathon
           </p>
 
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
             AI-Powered Income Protection for Gig Workers
           </h1>
 

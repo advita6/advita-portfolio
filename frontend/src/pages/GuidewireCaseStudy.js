@@ -44,7 +44,7 @@ const GuidewireCaseStudy = () => {
             </div>
 
             <p className="text-primary font-medium">
-              Built for Guidewire DEVTrails 2026 Hackathon 
+              Built for Guidewire DEVTrails 2026 Hackathon
             </p>
 
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">

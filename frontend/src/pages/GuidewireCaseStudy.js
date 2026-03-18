@@ -30,7 +30,7 @@ const GuidewireCaseStudy = () => {
       <div className="px-4 pt-32 pb-20">
 
         {/* GLASS CONTAINER */}
-        <div className="max-w-5xl mx-auto space-y-16 p-8 md:p-12 rounded-2xl border border-border bg-white/10 backdrop-blur-md shadow-xl">
+        <div className="max-w-5xl mx-auto space-y-16 p-8 md:p-12 rounded-2xl border border-white/10 bg-white/10 backdrop-blur-lg shadow-xl">
 
           {/* HERO */}
           <motion.div
@@ -43,7 +43,7 @@ const GuidewireCaseStudy = () => {
               <Badge variant="outline">AI + Parametric Insurance</Badge>
             </div>
 
-            <p className="text-primary font-medium">
+            <p className="text-primary/80 text-sm font-medium">
               Built for Guidewire DEVTrails 2026 Hackathon
             </p>
 

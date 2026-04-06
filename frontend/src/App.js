@@ -4,7 +4,7 @@ import Portfolio from './pages/Portfolio';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { Toaster } from './components/ui/toaster';
 import './App.css';
-import GuidewireCaseStudy from "./pages/GuidewireCaseStudy";
+import GuidewireCaseStudy from "./pages/GuidewireCaseStudyNew";
 
 function App() {
   return (

@@ -12,6 +12,7 @@ const Section = ({ title, children }) => (
     className="space-y-4"
   >
     <h2 className="text-2xl md:text-3xl font-bold tracking-tight">{title}</h2>
+    <h1 style={{ color: "red" }}>FORCE UPDATE CHECK</h1>
 
     <div className="text-muted-foreground leading-relaxed text-lg">
       {children}

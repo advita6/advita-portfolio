@@ -43,14 +43,14 @@ const Blog = () => {
               </div>
 
               <CardTitle className="text-2xl md:text-3xl group-hover:text-primary transition">
-                AI-Powered Income Protection for Gig Workers
+                Gig Shield: AI-Powered Insurance for Gig Workers
               </CardTitle>
 
               <p className="text-muted-foreground text-base leading-relaxed">
-                Designing a parametric insurance system that protects delivery partners 
-                from income loss caused by weather, pollution, and real-world disruptions 
-                using AI-driven risk models.
-              </p>
+                Gig Shield is an AI-powered delivery insurance platform that automates 
+                risk detection, claim validation, and payouts in real time using weather, 
+                route, and behavioral data — redefining how insurance works for gig workers.
+                </p>
 
             </CardHeader>
 

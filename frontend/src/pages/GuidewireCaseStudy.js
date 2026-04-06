@@ -52,8 +52,9 @@ const GuidewireCaseStudy = () => {
             </h1>
 
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              A proactive insurance system designed to protect delivery partners 
-              from unpredictable income loss using AI, real-time data, and automated triggers.
+              Gig Shield is an AI-powered delivery insurance platform that combines 
+              real-time data, automation, and machine learning to detect risks, 
+              trigger claims, and process payouts instantly — without any manual intervention.
             </p>
           </motion.div>
 
@@ -78,16 +79,38 @@ const GuidewireCaseStudy = () => {
             beyond their control, without requiring manual intervention.
           </Section>
 
+          {/* SYSTEM OVERVIEW */}
+          <Section title="System Overview">
+            The platform is designed as a multi-role ecosystem with three key actors:
+            
+            <ul className="list-disc pl-5 space-y-2 mt-3">
+              <li><strong>Workers:</strong> Purchase weekly micro-insurance, accept deliveries, and receive instant payouts</li>
+              <li><strong>Companies:</strong> Assign deliveries manually or using AI-based intelligent dispatch</li>
+              <li><strong>Admins:</strong> Monitor operations, manage policies, and generate AI-driven insurance tiers</li>
+            </ul>
+            This creates a fully integrated system combining logistics, insurance, and automation in one platform.
+          </Section>
+
           {/* APPROACH */}
           <Section title="Our Approach">
             We designed a weekly-based income protection model where workers contribute 
             similarly to a savings system but receive automated coverage.
 
-            Instead of reactive insurance, this system predicts disruptions and protects 
-            income before losses occur, ensuring fairness and efficiency.
+            Unlike traditional reactive insurance systems, Gig Shield operates 
+            as a real-time decision engine where risks are detected dynamically 
+            and claims are triggered automatically without user intervention.
+          </Section>
 
-            Payouts are triggered automatically using real-world signals like weather, 
-            pollution, and delivery conditions — eliminating manual claims entirely.
+          <Section title="AI Integration">
+            AI is deeply integrated across the platform to enable real-time decision making:
+            
+            <ul className="list-disc pl-5 space-y-2 mt-3">
+              <li>Actuarial AI generates dynamic insurance tiers based on risk profiles</li>
+              <li>Dispatch AI assigns deliveries intelligently for efficiency and safety</li>
+              <li>Real-time pipelines analyze route and environmental conditions</li>
+              <li>Fraud detection models validate claims and provide explainable outputs</li>
+            </ul>
+            This ensures that decisions are not only automated but also intelligent and adaptive.
           </Section>
 
           {/* FEATURES */}
